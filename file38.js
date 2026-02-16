@@ -16,3 +16,6 @@ console.log(Date.now());
 let d = new Date(2026,1,1,20,12,10) // manually create: year/ date / hour/ min/ sec :)
 console.log(d);
 
+let d1= new Date("February 16 2026 10:10:10") // another manual way 
+console.log(d1);
+console.log(d1.getMonth());
