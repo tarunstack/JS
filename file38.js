@@ -12,3 +12,7 @@ console.log(d.getMilliseconds());
 console.log(d.getDay());
 console.log(d.getTime());
 console.log(Date.now());
+
+let d = new Date(2026,1,1,20,12,10) // manually create: year/ date / hour/ min/ sec :)
+console.log(d);
+
